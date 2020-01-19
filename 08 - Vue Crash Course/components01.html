@@ -1,0 +1,40 @@
+<html>
+    <meta charset="utf-8">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="component1">
+            <button-counter v-for="item in items" :key="item.index"></button-counter>
+        </div>
+
+        <script>
+            Vue.component('button-counter',{
+                data: function(){
+                    return {
+                        count: 0
+                    }
+                },
+                template: '\
+                <div>\
+                    <button v-on:click="count++">You clicked me {{ count }} times.</button>\
+                    <p>this is a message {{ this.count }}</p>\
+                </div>'
+            })
+
+            var vm = new Vue({
+                el:'#component1',
+                data:{
+                    items:[
+                        {'index':1, 'item': 'Item1'},
+                        {'index':2, 'item': 'Item2'},
+                        {'index':3, 'item': 'Item2'},
+                        {'index':4, 'item': 'Item2'},
+                        {'index':5, 'item': 'Item2'},
+                        {'index':6, 'item': 'Item2'},
+                    ]
+                }
+            })
+        </script>
+    </body>
+</html>

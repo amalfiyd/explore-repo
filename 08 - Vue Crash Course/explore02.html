@@ -1,0 +1,32 @@
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <template v-if="isCool">
+                <p>This is because i am cool</p>
+                <p>Yes it is cool!</p>
+            </template>
+            <template v-else>
+                <p>Oh no!!!</p>
+            </template>
+            
+            <button @click="toggle">Toggle Coolness</button>
+        </div>
+
+        <script>
+            var vm = new Vue({
+                el: "#app",
+                data:{
+                    isCool: false
+                },
+                methods:{
+                    toggle: function(){
+                        this.isCool = !this.isCool   
+                    }
+                }
+            });
+        </script>
+    </body>

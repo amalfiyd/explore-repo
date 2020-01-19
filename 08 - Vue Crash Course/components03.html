@@ -1,0 +1,50 @@
+<html>
+    <meta charset="utf-8">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="testbro">
+            <div :style="{ fontSize: postFontSize + 'px' }">
+                <blog-post
+                    v-for="post in posts"
+                    v-bind:key="post.id"
+                    v-bind:post="post"
+                    v-on:enlarge-text="postFontSize += $event"
+                    v-on:smaller-text="postFontSize -= $event"
+                ></blog-post>
+              </div>
+        </div>
+
+        <script>
+            Vue.component('blog-post',{
+                props:['post'],
+                template:
+                '\
+                    <div class="blog-post">\
+                        <h3>{{ post.title }}</h3>\
+                        <button v-on:click="$emit(\'enlarge-text\', 2)">\
+                            Larger text\
+                        </button>\
+                        <button v-on:click="$emit(\'smaller-text\', 2)">\
+                            Smaller text\
+                        </button>\
+                        <div v-html="post.content"></div>\
+                    </div>'
+            })
+            
+            var vm = new Vue({
+                el:'#testbro',
+                data:{
+                    posts: [
+                        { id: 1, title: 'My journey with Vue' },
+                        { id: 2, title: 'Blogging with Vue' },
+                        { id: 3, title: 'Why Vue is so fun' },
+                        { id: 4, title: 'Why even doing this?' }
+                    ],
+                    postFontSize: 14
+                }
+            })
+        </script>
+    </body>
+</html>

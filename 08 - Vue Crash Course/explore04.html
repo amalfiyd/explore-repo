@@ -1,0 +1,21 @@
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <div @click.right="say('yahoo')">Test</div>
+        </div>
+
+        <script>
+            var vm = new Vue({
+                el:'#app',
+                methods:{
+                    say: function(message){
+                        alert(message);
+                    }
+                }
+            })
+        </script>
+    </body>
