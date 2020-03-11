@@ -1,0 +1,5 @@
+- LDAP, Active Directory integration in multi-tenant perspective
+- Architecture references
+- Security perspective
+- Minimum viable deployment infrastructure requirements
+- Different infrastructure requirements for each segment: primary, school, webinar

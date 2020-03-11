@@ -1,0 +1,14 @@
+- acf and pacf
+- acf and pacf confidence bands --> 95% confidence band
+- dickey fuller test to check stationarity
+- ANOVA
+- AR and MA + derivatives
+- Vector Regression
+- Machine learning approach
+
+
+https://towardsdatascience.com/significance-of-acf-and-pacf-plots-in-time-series-analysis-2fa11a5d10a8
+https://towardsdatascience.com/understanding-partial-auto-correlation-fa39271146ac
+https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775
+https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/
+http://course1.winona.edu/bdeppa/FIN%20335/Handouts/Time_Series_Decomposition.html#time-series-components

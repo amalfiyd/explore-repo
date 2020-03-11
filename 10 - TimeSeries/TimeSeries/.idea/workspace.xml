@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e68b793e-db3f-485f-9717-f5e3f990cf67" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YKixOzX0LTNWAh9U1AvLVraiQj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python Algo and DS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amalf\Desktop\TimeSeries\AuquanSite" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e68b793e-db3f-485f-9717-f5e3f990cf67" name="Default Changelist" comment="" />
+      <created>1582697932550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582697932550</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="184" key="FileChooserDialogImpl" timestamp="1583746736497">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="466" y="184" key="FileChooserDialogImpl/0.0.1368.882@0.0.1368.882" timestamp="1583746736497" />
+    <state x="380" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1583746266021">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="380" y="265" key="com.intellij.ide.util.TipDialog/0.0.1368.882@0.0.1368.882" timestamp="1583746266021" />
+    <state x="350" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1583604247933">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="350" y="189" width="672" height="678" key="search.everywhere.popup/0.0.1368.882@0.0.1368.882" timestamp="1583604247933" />
+  </component>
+</project>
